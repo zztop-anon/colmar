@@ -1,0 +1,193 @@
+/* "Tamming" Box Model With Reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Universal Styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+}
+
+.content-description {
+  font-size: .75rem;
+}
+
+
+/* nav */
+
+.nav,
+.logo,
+ul {
+  display: flex;
+  align-items: center;
+}
+
+.mobile {
+  display: none;
+}
+
+.nav {
+  height: 4rem;
+}
+
+.logo {
+  margin-left: 1.5rem;
+  height: 2rem;
+}
+
+.logo p span {
+  font-weight: bold;
+}
+
+.logo p {
+  font-weight: 200;
+}
+
+nav {
+  flex-grow: 1;
+}
+
+.desktop li {
+  padding-right: 1rem;
+}
+
+.desktop {
+  padding-right: .5rem;
+}
+
+/* header */
+
+.header-banner {
+  display: flex;
+}
+
+.header-image {
+  max-width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.header-image img {
+  max-width: 100%;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 1rem;
+}
+
+.cta a {
+  display: inline-block;
+  background-color: grey;
+  color: white;
+  padding: .5rem 6rem;
+  font-size: .85rem;
+}
+
+/* content */
+
+.content,
+.side-content {
+  display: flex;
+}
+
+.main-content {
+  width: 60%;
+  padding: 2rem 1.5rem;
+  position: relative;
+}
+
+.main-content-image img {
+  max-width: 100%;
+}
+
+.main-content h2 {
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+.main-content span {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.side-content-container {
+  width: 40%;
+  border: 1px solid blue;
+}
+
+.side-content-image {
+  width: 35%;
+  height: auto;
+  border: 1px solid blue;
+
+}
+
+.side-content-image img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
