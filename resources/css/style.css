@@ -30,10 +30,18 @@ h2 {
 }
 
 h3 {
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 .content-description {
+  font-size: .75rem;
+}
+
+p {
+  font-size: .75rem;
+}
+
+a {
   font-size: .75rem;
 }
 
@@ -80,7 +88,7 @@ nav {
   padding-right: .5rem;
 }
 
-/* header */
+/* banner */
 
 .header-banner {
   display: flex;
@@ -103,9 +111,15 @@ nav {
   padding-left: 1rem;
 }
 
+.cta h1,
+.cta span,
+.cta a {
+  width: 70%;
+}
+
 .cta a {
   display: inline-block;
-  background-color: grey;
+  background-color: darkgrey;
   color: white;
   padding: .5rem 6rem;
   font-size: .85rem;
@@ -134,33 +148,93 @@ nav {
 }
 
 .main-content span {
-  position: absolute;
-  bottom: 2rem;
-}
-
-.side-content-container {
-  width: 40%;
-  border: 1px solid blue;
+  font-size: .75rem;
+  display: block;
+  padding-top: 2rem;
 }
 
 .side-content-image {
-  width: 35%;
+  width: 32%;
   height: auto;
-  border: 1px solid blue;
+  display: flex;
+  align-items: center;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
 
 }
 
 .side-content-image img {
   max-width: 100%;
+  height: auto;
 }
 
+.side-content-details {
+  width: 65%;
+}
 
+.side-content-container {
+  padding-top: 2rem;
+  border-left: 1px solid grey;
+  width: 40%;
+}
 
+.side-content {
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+}
 
+.description,
+.side-content-details a {
+  width: 80%;
+}
 
+.side-content-details a {
+  color: blue;
+  padding-top: .5rem;
+}
 
+.side-content-details h3 {
+  padding-bottom: .25rem;
+}
 
+#guest,
+.header-banner {
+  background-color: grey;
+}
 
+/* start learning  */
+.start-learning h2 {
+  text-align: center;
+
+}
+
+.start-learning {
+  padding: 2rem 4.5rem;
+  border: 1px solid blue;
+
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  border: 1px solid blue;
+  padding-top: 2rem;
+}
+
+.course {
+  width: 32%;
+  background-color: grey;
+  border: 1px solid blue;
+
+}
+
+.course-image img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 
