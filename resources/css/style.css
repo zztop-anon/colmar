@@ -14,6 +14,7 @@ html {
 body {
   font-family: "Helvetica", sans-serif;
   line-height: 1.4;
+  background-color: #FFF0BF;
 }
 
 .container {
@@ -56,6 +57,9 @@ a {
 ul {
   display: flex;
   align-items: center;
+  background-color: #FFF0BF;
+  color: #4E3B00;
+
 }
 
 .mobile {
@@ -77,6 +81,7 @@ ul {
 
 .logo p {
   font-weight: 200;
+  font-size: 1rem;
 }
 
 nav {
@@ -109,6 +114,10 @@ nav {
 /* banner */
 
 .header-banner {
+  color: #4E3B00;
+}
+
+.header-banner {
   display: flex;
 }
 
@@ -132,10 +141,15 @@ nav {
 
 .cta a {
   display: inline-block;
-  background-color: darkgrey;
-  color: white;
+  background-color: #001D32;
+  color: #FFEFBB;
   padding: .5rem 6rem;
   font-size: .85rem;
+}
+
+.cta span {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media only screen and (max-width: 775px) {
@@ -187,12 +201,13 @@ nav {
 .content,
 .side-content {
   display: flex;
+  background-color: #D6DBF6;
+  color: #4E3B00;
 }
 
 .main-content {
   width: 60%;
   padding: 2rem 1.5rem;
-  position: relative;
 }
 
 .main-content-image img {
@@ -202,6 +217,7 @@ nav {
 .main-content h2 {
   padding-bottom: 1.5rem;
   padding-top: 1rem;
+  text-align: left;
 }
 
 .main-content span {
@@ -217,7 +233,6 @@ nav {
   align-items: center;
   padding-top: .75rem;
   padding-bottom: .75rem;
-
 }
 
 .side-content-image img {
@@ -230,15 +245,17 @@ nav {
 }
 
 .side-content-container {
-  padding-top: 2rem;
-  border-left: 1px solid grey;
+  padding-top: 1.25rem;
   width: 40%;
+  border-left: 1px solid#D3E7F5;
 }
 
 .side-content {
   justify-content: space-between;
   align-items: center;
   padding-left: 1rem;
+  border-bottom: 1px solid #D3E7F5;
+
 }
 
 .description,
@@ -257,7 +274,7 @@ nav {
 
 #guest,
 .header-banner {
-  background-color: grey;
+  background-color:#BCC3F1;
 }
 
 #mobile {
@@ -282,9 +299,9 @@ nav {
     padding: 1rem 1rem 0 0;
   }
 
-  #guest {
-    background-color: white;
-  }
+    #guest {
+      background-color: #D6DBF6;
+    }
 
   .side-content {
     display: flex;
@@ -308,10 +325,13 @@ nav {
 .start-learning h2 {
   text-align: center;
   padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .start-learning {
   padding: 0rem 4.5rem 2rem 4.5rem;
+  background-color:#D3E7F5;
+  color: #4E3B00;
 }
 
 .courses-section-one,
@@ -325,7 +345,7 @@ nav {
 
 .course {
   width: 32%;
-  background-color: grey;
+  background-color: white;
 }
 
 .course-image img {
@@ -352,7 +372,7 @@ nav {
   }
 
   .start-learning {
-    padding: 0;
+    padding: 0 0 2rem 0;
   }
 
   .courses-section-one,
@@ -373,11 +393,16 @@ nav {
 
 /* thesis-exhibit */
 
-.container h2 {
+.thesis h2 {
   text-align: center;
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 
+}
+
+.thesis {
+  background-color: #D6DBF6;
+  color: #4E3B00;
 }
 
 .thesis-exhibit,
@@ -422,7 +447,7 @@ p {
 }
 
 .side-thesis-exhibit:first-child {
-  background-color: grey;
+  background-color:#BCC3F1;
 }
 
 .main-thesis-exhibit h3 {
@@ -447,18 +472,18 @@ p {
 
 /* footer */
 
+footer {
+  padding: 1rem 0 1rem 1rem;
+}
+
 footer,
 footer div {
   display: flex;
   padding-bottom: 2rem;
 }
 
-footer p {
-  padding-left: 1rem;
-}
-
 footer a {
-  padding-right: .5rem;
+  padding-right: .75rem;
 }
 
 @media only screen and (max-width: 555px) {
