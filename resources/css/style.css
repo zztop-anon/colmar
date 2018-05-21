@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.4;
   background-color: #FFF0BF;
 }
@@ -25,16 +25,19 @@ body {
 h1 {
   font-size: 1.75rem;
   font-weight: bold;
+  font-family: 'Bitter', serif;
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: bold;
+  font-family: 'Bitter', serif;
 }
 
 h3 {
   font-size: 1rem;
   font-weight: bold;
+  font-family: 'Bitter', serif;
 }
 
 .content-description {
@@ -59,7 +62,10 @@ ul {
   align-items: center;
   background-color: #FFF0BF;
   color: #4E3B00;
+}
 
+.desktop a:hover {
+  text-decoration: underline;
 }
 
 .mobile {
@@ -82,6 +88,7 @@ ul {
 .logo p {
   font-weight: 200;
   font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -107,7 +114,12 @@ nav {
 
   .mobile li {
     padding-right: 1rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
+  }
+
+  .mobile li:hover {
+    background-color: #D6DBF6;
+    border-radius: 20px;
   }
 }
 
@@ -145,6 +157,14 @@ nav {
   color: #FFEFBB;
   padding: .5rem 6rem;
   font-size: .85rem;
+}
+
+.cta a:hover {
+  background-color: black;
+}
+
+.cta a:active {
+  background-color: #301D40;
 }
 
 .cta span {
@@ -190,6 +210,8 @@ nav {
   .header-image {
     min-width: 100%;
   }
+
+
 
   .cta {
     min-width: 90%;
@@ -264,8 +286,12 @@ nav {
 }
 
 .side-content-details a {
-  color: blue;
+  color: darkblue;
   padding-top: .5rem;
+}
+
+.side-content-details a:hover {
+  text-decoration: underline;
 }
 
 .side-content-details h3 {
@@ -361,6 +387,18 @@ nav {
 .course-info p {
   padding-bottom: .25rem;
   padding-top: .5rem;
+}
+
+.course a {
+  color: #4E3B00;
+}
+
+.course a:hover {
+  text-decoration: underline;
+}
+
+.course:hover {
+  box-shadow: 5px 10px 10px #FFF0BF;
 }
 
 @media only screen and (max-width: 555px) {
