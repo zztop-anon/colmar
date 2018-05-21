@@ -103,6 +103,8 @@ nav {
   padding-right: .5rem;
 }
 
+
+
 @media only screen and (max-width: 515px) {
   .desktop {
     display: none;
@@ -127,6 +129,7 @@ nav {
 
 .header-banner {
   color: #4E3B00;
+  border-radius: 30px 30px 0 0;
 }
 
 .header-banner {
@@ -157,6 +160,7 @@ nav {
   color: #FFEFBB;
   padding: .5rem 6rem;
   font-size: .85rem;
+  border-radius: 10px;
 }
 
 .cta a:hover {
@@ -269,14 +273,14 @@ nav {
 .side-content-container {
   padding-top: 1.25rem;
   width: 40%;
-  border-left: 1px solid#D3E7F5;
+  border-left: 1px solid #FFF0BF;
 }
 
 .side-content {
   justify-content: space-between;
   align-items: center;
   padding-left: 1rem;
-  border-bottom: 1px solid #D3E7F5;
+  border-bottom: 1px solid #FFF0BF;
 
 }
 
@@ -298,7 +302,10 @@ nav {
   padding-bottom: .25rem;
 }
 
-#guest,
+.side-content:hover {
+  background-color: #BCC3F1;
+}
+
 .header-banner {
   background-color:#BCC3F1;
 }
@@ -325,9 +332,6 @@ nav {
     padding: 1rem 1rem 0 0;
   }
 
-    #guest {
-      background-color: #D6DBF6;
-    }
 
   .side-content {
     display: flex;
@@ -441,6 +445,7 @@ nav {
 .thesis {
   background-color: #D6DBF6;
   color: #4E3B00;
+  border-radius: 0 0 30px 30px;
 }
 
 .thesis-exhibit,
@@ -484,8 +489,16 @@ p {
   height: auto;
 }
 
-.side-thesis-exhibit:first-child {
+.side-thesis-exhibit:hover {
   background-color:#BCC3F1;
+}
+
+.side-thesis-exhibit-container {
+  border-left: 1px solid #FFF0BF;
+}
+
+.side-thesis-exhibit:first-child {
+  border-bottom: 1px solid #FFF0BF;
 }
 
 .main-thesis-exhibit h3 {
@@ -522,6 +535,10 @@ footer div {
 
 footer a {
   padding-right: .75rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 555px) {
