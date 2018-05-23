@@ -3,8 +3,10 @@
   <head>
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="./resources/css/reset.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="./resources/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Montserrat:400,700" rel="stylesheet">
+    <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
   </head>
   <body>
 
@@ -21,15 +23,15 @@
           </div>
         </nav>
 
-        <ul class="desktop">
-          <a href="#"></a>
+        <ul role="presentation" class="desktop">
+          <li><img src="./favicon.ico" alt=""></li>
           <li><a href="#">On campus</a></li>
           <li><a href="#">Online</a></li>
           <li><a href="#">or companies</a></li>
           <li><a href="#">Sign in</a></li>
         </ul>
 
-        <ul class="mobile">
+        <ul role="presentation" class="mobile">
           <li><a href="#"><img src="./resources/images/ic-on-campus.svg"
             alt="black profile of a school desk icon"></a></li>
           <li><a href="#"><img src="./resources/images/ic-online.svg"
@@ -80,7 +82,7 @@
           </div>
           <div class="side-content-details">
             <h3>Orientation date</h3>
-            <p class="description">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <p role="note" class="description">Tue 10/11 & Wed 10/12: 8am-3pm</p>
             <a href="#">Read more</a>
           </div>
         </div>
@@ -94,7 +96,7 @@
           </div>
           <div class="side-content-details">
             <h3>Our campus</h3>
-            <p class="description">Find which campus is close by you</p>
+            <p role="note" class="description">Find which campus is close by you</p>
             <a href="#">Read more</a>
           </div>
         </div>
@@ -108,7 +110,7 @@
           </div>
           <div class="side-content-details">
             <h3>Our guest lecture</h3>
-            <p class="description">Join a keynote with Oliver Sack about music in
+            <p role="note" class="description">Join a keynote with Oliver Sack about music in
               medical treatment</p>
             <a href="#">Read more</a>
           </div>
@@ -245,7 +247,7 @@
             </div>
             <div class="side-thesis-info">
               <h3>Fisma: Design and Prototype</h3>
-              <p>Designer showcase of new prototype product</p>
+              <p role="note">Designer showcase of new prototype product</p>
             </div>
           </div>
 
@@ -255,7 +257,7 @@
             </div>
             <div class="side-thesis-info">
               <h3>Now and then</h3>
-              <p>Research study about New York</p>
+              <p role="note">Research study about New York</p>
             </div>
           </div>
         </div>
@@ -266,6 +268,11 @@
 
     <footer class="container">
       <p>&copy 2016 Colmar Academy. All rights reserved</p>
+      <p>
+        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+        <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+      </p>
       <div class="terms">
         <a href="#">Terms</a>
         <a href="#">Privacy</a>

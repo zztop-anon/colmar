@@ -53,6 +53,13 @@ a {
 }
 
 
+/* The favicon doesn't really work
+ anywhere on the page, but just wanted
+ to show I could use it. */
+.desktop li:first-child{
+  display: none;
+}
+
 /* nav */
 
 .nav,
@@ -541,8 +548,16 @@ footer a:hover {
   text-decoration: underline;
 }
 
+footer i {
+  padding-right: 2.5rem;
+}
+
 @media only screen and (max-width: 555px) {
   footer div {
     display: none;
+  }
+
+  footer i {
+    padding-right: 1rem;
   }
 }
